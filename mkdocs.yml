@@ -1,0 +1,64 @@
+site_name: On-Prem SRE User Guide
+site_url: https://example.com/
+nav:
+  - Home: index.md
+  - Overview: Overview.md
+  - Roles: Roles.md
+  - Using On-Prem SRE: Using_On-prem_SRE.md
+#  - Resources and Contact: Resources_and_Contact.md
+
+theme:  
+  name: material
+  favicon: img/favicon.png
+  logo: img/logo.png
+  palette:
+    primary: custom
+  font:
+    text: Open Sans 
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+ # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - autorefs
+
+extra_css:
+    - css/extra.css
+  
+repo_name: GitHub
+site_url: https://UoA-eResearch.github.io/On-Prem-SRE-UserGuide/
+repo_url: https://github.com/UoA-eResearch/On-Prem-SRE-User-Guide
