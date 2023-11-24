@@ -3,11 +3,6 @@ Secure research environment (SRE) provides a safe, remote computing environment 
 
 !!The diagram will change!!
 
-<figure markdown>
-  ![diagram](img/diagram.png)
-  <figcaption> </figcaption>
-</figure>
-
 ``` mermaid
 graph 
   %% definitions
