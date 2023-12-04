@@ -56,9 +56,14 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
   <figcaption> </figcaption>
 </figure>
 
-Each user has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
+###Storage structure for researcher 
+
+Each researcher has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
 
 Click on the folder which have the data you need to work with. 
+
+For data custodian’s folder structure, go to section () 
+
  
 ###Opening software and running analysis 
 Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
@@ -137,26 +142,160 @@ You can also zip up a file and upload it, but then the size of the zipped folder
 
 (In the ingress request history, you will see the request state changed from “creating” to “pending_approval”). 
 
-Following the data custodian’s evaluation of the data, if the request is approved, state of the request changes to “approved” and you will receive a notification of the same. The files will be moved from the airlock into your personal folder. You can either keep the imported file in your personal folder or copy it into the “project-rw” folder to share and collaborate with rest of your team. 
+<figure markdown>
+  ![Screenshot17](img/Screenshot17.png)
+  <figcaption> </figcaption>
+</figure>
+
+Following the ingress approver/data custodian’s evaluation of the data, if the request is approved, state of the request changes to “approved” and you will receive a notification of the same. The files will be moved from the airlock into “ingress” inside your personal folder.  
+
+<figure markdown>
+  ![Screenshot25](img/Screenshot25.png)
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Screenshot26](img/Screenshot26.png)
+  <figcaption> </figcaption>
+</figure>
+
+You can either keep the imported file in your personal folder or copy it into the “project-rw” folder to share and collaborate with rest of your team. 
 
 If the Ingress Approver rejects your request, state of the request changes to “rejected” and the file is deleted from the staging area. You can contact the Approver for a clarification and seek advice on the next steps.   
 
 ###Request Egress/Export Data 
+TBD
 
 ###Time outs 
 
+The VM connection will be closed once the idle timeout has been reached. 10 minutes of inactivity will lead to connection to the VM being lost and you may need to refresh the environment/log in again to continue. 
+
+<figure markdown>
+  ![Screenshot27](img/Screenshot27.png)
+  <figcaption> </figcaption>
+</figure>
+
+###Change a role for the project in SRE 
+
+You can change your role (if you have been given multiple roles by the SRE team at the discretion of data custodian) by selecting an option from the dropdown menu at the rightmost corner of the main menu.  
+
+<figure markdown>
+  ![Screenshot18](img/Screenshot18.png)
+  <figcaption> </figcaption>
+</figure>
+
+You can choose one of the four options according to your requirement in the project. Please contact your project owner/data custodian if you need to access SRE with a different role (only the project owner/data custodian can request SRE team to assign various roles to different users in SRE). 
+
 ##As a Data Custodian 
 
-###Log into SRE [same as above] 
+###Log into SRE  
 
-###Select data custodian role for project [depends on role as to default role] 
+Open (incognito?) browser
+ 
+[Enter SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
 
-###View ingress/egress requests 
+[For test](https://sre-dev.nectar.auckland.ac.nz/) 
 
-###Approve or decline a request 
+In the log in page, enter UPI and password (in testing phase – password set for the test environment) 
+
+Enter MFA (in testing phase – token for test authy) 
+
+You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Following instructions as above (point to previous sections). 
+
+<figure markdown>
+  ![Screenshot21](img/Screenshot21.png)
+  <figcaption> </figcaption>
+</figure>
+
+###Storage structure for Data Custodian 
+
+The following are the list of folders a data custodian has access to: 
+
+Project-rw - Shared project folder with read and write access.  
+The content in this folder can be edited by the users who have access to it. 
+
+Project-ro – Shared project folder with read only access.  
+The data in this folder cannot be manipulated by anyone except data custodian. 
+
+Project-personal – Personal folders of each user in the project will be listed in this folder.  
+The data custodian can access any of these users’ personal folder to view/update/delete data in an SRE. 
+
+Custodian – Only data custodian has access to this folder.  
+When a data custodian ingress data directly, the uploaded files are moved into this folder and the data custodian can then move these files into project-rw, project personal (username) or egress-approver folder. 
+
+Egress approver - Folder where all the egress request files land in. 
+Both data custodian and egress approver have access to this folder. 
+
+Ingress approver – Folder where all the ingress request files land in. 
+Both data custodian and ingress approver have access to this folder. 
+
+<figure markdown>
+  ![Screenshot22](img/Screenshot22.png)
+  <figcaption> </figcaption>
+</figure>
+
+###Ingress data directly into SRE 
+
+A data custodian can import (ingress) data directly into SRE without requiring approval from the ingress approver.  
+
+For this, in the main menu select “Data Ingress” and “choose the file” to be uploaded and click on “Upload”. This copies your file from your computer/storage device to the airlock.  
+
+<figure markdown>
+  ![Screenshot23](img/Screenshot23.png)
+  <figcaption> </figcaption>
+</figure>
+
+Select “Request ingress” to move the file from the airlock to “Custodian” folder. The request state in the “ingress request history” changes from “creating” to “completed”. 
+
+You will also receive two notifications in your email - your file has been uploaded and then that it has been processed. 
+
+###Deletion of datasets 
+
+###Dataset management 
+
+TBD 
 
 ###Request for change of user’s role/permission level 
 
 ###Request to remove a user from a project 
 
-###Deletion of datasets 
+##As a data ingress approver 
+
+Login as in section () or change to “Ingress approver” role (section) 
+
+###View ingress requests 
+
+Upon getting the notification to review an ingress files request, the user must either log in to SRE environment as an Ingress Approver/Data custodian or needs to select and change the role in SRE.  
+
+Select Data Ingress Request from the screen.  
+
+<figure markdown>
+  ![Screenshot19](img/Screenshot19.png)
+  <figcaption> </figcaption>
+</figure>
+
+You can see the requests by different users which are waiting to be approved.  You can use the virtual machine available to view and evaluate the data been requested to be brought in. 
+
+<figure markdown>
+  ![Screenshot20](img/Screenshot20.png)
+  <figcaption> </figcaption>
+</figure>
+
+In the virtual machine, open the File explorer and select “ingress-approver” folder under network locations. 
+
+<figure markdown>
+  ![Screenshot24](img/Screenshot24.png)
+  <figcaption> </figcaption>
+</figure>
+
+From the list of folders, select the user who requested the ingress, and open the requested file to inspect the contents.  
+
+###Approve or decline a request 
+
+After inspection, go back to the previous main menu (Data ingress requests) and approve or reject the ingress request, as seen appropriate. The data will be automatically deleted from the ingress approver folder (airlock) following approval/rejection. If the request is approved, you will find the file in your personal storage (folder) in the “ingress” folder. 
+
+##As a data egress approver 
+
+###View egress requests 
+
+TBD 
