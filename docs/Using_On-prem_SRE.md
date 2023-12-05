@@ -251,13 +251,16 @@ You will also receive two notifications in your email - your file has been uploa
 
 ###Deletion of datasets 
 
-###Dataset management 
+As a data custodian, you have read and write access to every folder in your project in an SRE. You may delete data from user’s personal, custodian, ingress-approver, egress-approver, project-ro and project-rw folders. 
 
-TBD 
 
 ###Request for change of user’s role/permission level 
 
+As a data custodian, you can request for a specific user’s role to be changed in your project or give them a different permission level (read-write or read-only) in SRE. For this, please send an email to the SRE team. 
+
 ###Request to remove a user from a project 
+
+As a data custodian, you can request for a specific user to be added or deleted from your project in SRE. Please send an email to the SRE team with the users' details – full name, UPI, email and role in SRE (researcher/data custodian/ingress-approver/egress-approver). 
 
 ##As a data ingress approver 
 
