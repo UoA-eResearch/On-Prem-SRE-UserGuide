@@ -6,6 +6,4 @@ Domain name/link for SRE
 
 VPN connection (Outside UoA intranet) 
 
-Internet connection and computer 
-
 Multifactor Authentication 
