@@ -16,7 +16,7 @@ For more info, go to  [uoa-vpn-service](https://www.auckland.ac.nz/en/students/a
 
 Read-write permission - Grants the user ability to view and modify a file includes creating files, deleting files, and renaming files. 
 
-Read-only permissions - Grants the user ability only to view a file. 
+Read-only permissions - Grants the user ability only to view and read a file. 
 
 MFA - Multi-factor authentication, or MFA, is a security process that helps verify users' identities before letting them access networks or online applications. 
 
