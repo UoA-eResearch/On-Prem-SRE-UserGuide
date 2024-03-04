@@ -1,9 +1,9 @@
 
-#Using On-Prem SRE 
+# Using On-Prem SRE 
 
-##As a Researcher
+## As a Researcher
 
-###Log into the SRE 
+### Log into the SRE 
 
 Open (incognito?) browser
  
@@ -27,14 +27,9 @@ In the landing page, select your project from the drop-down menu. All the projec
   <figcaption> </figcaption>
 </figure>
 
-<figure markdown>
-  ![Screenshot3](img/Screenshot3.png)
-  <figcaption> </figcaption>
-</figure>
+### Working in Analysis Environment as a Researcher 
 
-###Working in Analysis Environment as a Researcher 
-
-###Analysing Data 
+### Analysing Data 
 
 From the project’s main menu, choose Virtual desktop if you need to access and work with the data in your personal folder or shared project folders. 
 
@@ -43,12 +38,7 @@ From the project’s main menu, choose Virtual desktop if you need to access and
   <figcaption> </figcaption>
 </figure>
 
-To access the data you have permission to work on, choose either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed. 
-
-<figure markdown>
-  ![Screenshot5](img/Screenshot5.png)
-  <figcaption> </figcaption>
-</figure>
+Choose from either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed for your analysis. 
 
 Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. 
 
@@ -57,7 +47,7 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
   <figcaption> </figcaption>
 </figure>
 
-###Storage structure for researcher 
+### Storage structure for researcher 
 
 Each researcher has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
 
@@ -65,8 +55,8 @@ Click on the folder which have the data you need to work with.
 
 For data custodian’s folder structure, go to section () 
 
- 
-###Opening software and running analysis 
+### Opening software and running analysis 
+
 Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
  
 <figure markdown>
