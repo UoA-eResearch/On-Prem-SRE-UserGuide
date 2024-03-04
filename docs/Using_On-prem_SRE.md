@@ -13,8 +13,6 @@ In the log in page, enter UPI and password.
 
 Enter MFA (authy token).
 
-###Working in Analysis Environment as a Researcher 
-
 You will be directed to the On-prem SRE landing page. 
 
 <figure markdown>
@@ -22,7 +20,7 @@ You will be directed to the On-prem SRE landing page.
   <figcaption> </figcaption>
 </figure>
 
-In the landing page, select your project from the drop-down menu. All the projects you have access to will be displayed in the drop-down. Select the one you need to work on. 
+In the landing page, select your project from the drop-down menu. All the projects you have access to will be displayed in the drop-down. Select the one you need to work with. 
 
 <figure markdown>
   ![Screenshot2](img/Screenshot2.png)
@@ -34,15 +32,18 @@ In the landing page, select your project from the drop-down menu. All the projec
   <figcaption> </figcaption>
 </figure>
 
-From the project’s main menu, choose Virtual desktop if you need to access data in your personal folder or shared project folders. 
+###Working in Analysis Environment as a Researcher 
+
+###Analysing Data 
+
+From the project’s main menu, choose Virtual desktop if you need to access and work with the data in your personal folder or shared project folders. 
 
 <figure markdown>
   ![screenshot4](img/Screenshot4.png)
   <figcaption> </figcaption>
 </figure>
 
-###Analysing Data 
-To access the data, you have permission to work on, click on the “Shared analytics VM” or your customised VM. This will log you into the virtual machine which have the relevant software tools installed. 
+To access the data you have permission to work on, choose either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed. 
 
 <figure markdown>
   ![Screenshot5](img/Screenshot5.png)
