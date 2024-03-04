@@ -7,15 +7,15 @@
 
 Open (incognito?) browser
  
-[Enter SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
+[SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
 
-[For test](https://sre-dev.nectar.auckland.ac.nz/) 
+In the log in page, enter UPI and password.
 
-In the log in page, enter UPI and password (in testing phase - password set for the test environment) 
-Enter MFA (in testing phase – token for test authy) 
+Enter MFA (authy token).
 
 ###Working in Analysis Environment as a Researcher 
-             You will come to the landing page. 
+
+You will be directed to the On-prem SRE landing page. 
 
 <figure markdown>
   ![Screenshot1](img/Screenshot1.png)
