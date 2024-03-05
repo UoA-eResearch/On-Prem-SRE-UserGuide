@@ -1,9 +1,7 @@
 
-# Using On-Prem SRE 
+# Using On-Prem SRE As a Researcher
 
-## As a Researcher
-
-### Log into the SRE 
+## Log into the SRE 
 
 Open (incognito?) browser
  
@@ -27,8 +25,6 @@ In the landing page, select your project from the drop-down menu. All the projec
   <figcaption> </figcaption>
 </figure>
 
-### Working in Analysis Environment as a Researcher 
-
 ## Analysing Data 
 
 From the project’s main menu, choose Virtual desktop if you need to access and work with the data in your personal folder or shared project folders. 
@@ -47,7 +43,7 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
   <figcaption> </figcaption>
 </figure>
 
-# Storage structure for researcher 
+### Storage structure for researcher 
 
 Each researcher has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
 
@@ -64,31 +60,17 @@ Select your software from the desktop and open the datasets you need to work wit
   <figcaption> </figcaption>
 </figure>
 
-<figure markdown>
-  ![Screenshot8](img/Screenshot8.png)
-  <figcaption> </figcaption>
-</figure>
-
 After finishing the analysis, “Save” your work in the appropriate folder (see the next section on “Save data”). 
 
-If your software is not available in the desktop, click on the Windows icon at the leftmost corner in the task bar and type in your search in the search bar and select the software you need. 
+If your software is not available in the desktop, click on the Search icon in the task bar, type in and select the software you need. 
 
 <figure markdown>
   ![Screenshot9](img/Screenshot9.png)
   <figcaption> </figcaption>
 </figure>
 
-<figure markdown>
-  ![Screenshot10](img/Screenshot10.png)
-  <figcaption> </figcaption>
-</figure>
+### Save data into different folders (personal, shared, egress) 
 
-<figure markdown>
-  ![Screenshot11](img/Screenshot11.png)
-  <figcaption> </figcaption>
-</figure>
-
-###Save data into different folders (personal, shared, egress) 
 Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. 
 
 <figure markdown>
@@ -98,10 +80,10 @@ Once the analysis is done, choose “project-rw” or your personal folder and p
 
 Note: In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
 
-###Access data from shared or read-only folder 
-TBD 
+### Access data from shared or read-only folder 
+Only the data custodian can edit the data in a project's RO folder. The researchers can access the data and can analyse it to generate outputs but cannot edit its content.
 
-###Request Ingress/Import Data 
+### Request Ingress/Import Data 
 As a researcher to upload files from your computer or a location outside of Secure Research Environment, you need to use “Data Ingress” Option from the project’s main menu. 
  
 <figure markdown>
