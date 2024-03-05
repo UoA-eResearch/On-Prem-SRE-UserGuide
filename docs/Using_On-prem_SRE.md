@@ -3,11 +3,9 @@
 
 ## Log into the SRE 
 
-Open (incognito?) browser
- 
-[SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
+Open browser and use the following [SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
 
-In the log in page, enter UPI and password.
+In the log in page, enter your UPI and password.
 
 Enter MFA (authy token).
 
