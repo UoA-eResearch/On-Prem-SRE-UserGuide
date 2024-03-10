@@ -41,14 +41,6 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
   <figcaption> </figcaption>
 </figure>
 
-### Storage structure for researcher 
-
-Each researcher has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
-
-Click on the folder which have the data you need to work with. 
-
-For data custodian’s folder structure, go to section () 
-
 ## Opening software and running analysis 
 
 Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
