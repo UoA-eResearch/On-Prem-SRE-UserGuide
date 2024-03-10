@@ -8,7 +8,7 @@ Each project in SRE has three storage folders.
 
 (iii) Personal: Each project team member has a personal folder in the SRE project where they have read-write privileges. Under personal folder there are two folders - Ingress and Egress. The data custodians/ingress and egress approvers access these folders to move in the requested files as part of data ingress or egress process. 
 
-### Storage structure for researcher 
+### Storage structure for Researcher 
 
 Each researcher has access to the above three folders. Please note that the data custodians have read-write access to the Researcher's personal folder in SRE.
 
