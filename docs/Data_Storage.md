@@ -6,17 +6,11 @@ Each project in SRE has three storage folders.
 
 (ii) Shared read-only: A place where the data custodian can place data sets that are not to be changed by project team members. Data custodians have read-write access here and everybody else have read-only access. 
 
-(ii) Personal: Each project team member has a personal folder in the SRE project where they have read-write privileges. Under personal folder there are two folders - Ingress and Egress. The data custodians/ingress and egress approvers access these folders to move in the requested files as part of data ingress or egress process. 
-
-Please note that the data custodians have read-write access to the Researcher's personal folder in SRE.
+(iii) Personal: Each project team member has a personal folder in the SRE project where they have read-write privileges. Under personal folder there are two folders - Ingress and Egress. The data custodians/ingress and egress approvers access these folders to move in the requested files as part of data ingress or egress process. 
 
 ### Storage structure for researcher 
 
-Each researcher has access to three folders- one personal folder (with read-write access) and two shared project folders (with read-only and read-write access respectively). 
-
-Click on the folder which have the data you need to work with. 
-
-For data custodian’s folder structure, go to section () 
+Each researcher has access to the above three folders. Please note that the data custodians have read-write access to the Researcher's personal folder in SRE.
 
 ### Storage structure for Data Custodian 
 
