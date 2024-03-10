@@ -34,7 +34,7 @@ From the project’s main menu, choose Virtual desktop if you need to access and
 
 Choose from either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed for your analysis. 
 
-Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. 
+Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. Click on the folder which have the data you need to work with. 
 
 <figure markdown>
   ![Screenshot6](img/Screenshot6.png)
@@ -71,7 +71,7 @@ Once the analysis is done, choose “project-rw” or your personal folder and p
 Note: In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
 
 ### Access data from shared or read-only folder 
-Only the data custodian can edit the data in a project's RO folder. The researchers can access the data and can analyse it to generate outputs but cannot edit its content.
+The researchers can access the data and can analyse it to generate outputs but cannot edit its content. Only the data custodian can edit the data in a project's RO folder. 
 
 ### Request Ingress/Import Data 
 As a researcher to upload files from your computer or a location outside of Secure Research Environment, you need to use “Data Ingress” Option from the project’s main menu. 
