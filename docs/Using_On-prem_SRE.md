@@ -138,7 +138,7 @@ The VM connection will be closed once the idle timeout has been reached. 15 minu
   <figcaption> </figcaption>
 </figure>
 
-### Change a role for the project in SRE 
+### Changing role in SRE 
 
 You can readily change your role (if you have been given multiple roles by the SRE team at the discretion of data custodian) by selecting an option from the dropdown menu at the rightmost corner of the main menu.  
 
