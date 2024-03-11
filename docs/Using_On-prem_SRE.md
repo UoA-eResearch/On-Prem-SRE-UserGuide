@@ -1,5 +1,7 @@
 
-# Using On-Prem SRE As a Researcher
+# Using On-Prem SRE 
+
+# As a Researcher
 
 ## Log into the SRE 
 
@@ -59,7 +61,7 @@ If your software is not available in the desktop, click on the Search icon in th
   <figcaption> </figcaption>
 </figure>
 
-### Save data into different folders (personal, shared, egress) 
+## Save data into different folders (personal, shared, egress) 
 
 Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instruction under Data Egress (link).
 
@@ -73,7 +75,7 @@ Note: In SRE, as a “Researcher” you cannot save a file in “project-ro” f
 ### Access data from shared or read-only folder 
 The researchers can access the data and can analyse it to generate outputs but cannot edit its content. Only the data custodian can edit the data in a project's RO folder. 
 
-### Request Ingress/Import Data 
+## Request Ingress/Import Data 
 As a researcher to upload files from your computer or a location outside of Secure Research Environment, you need to use “Data Ingress” Option from the project’s main menu. 
  
 <figure markdown>
@@ -126,10 +128,10 @@ You can either keep the imported file in your personal folder or copy it into th
 
 If the Ingress Approver rejects your request, state of the request changes to “rejected” and the file is deleted from the staging area. You can contact the Approver for a clarification and seek advice on the next steps.   
 
-### Request Egress/Export Data 
+## Request Egress/Export Data 
 TBD
 
-### Time outs 
+## Time outs 
 
 The VM connection will be closed once the idle timeout has been reached. 15 minutes of inactivity will lead to connection to the VM being lost and you may need to log in again with your UPI, password and MFA to continue. 
 
@@ -138,7 +140,9 @@ The VM connection will be closed once the idle timeout has been reached. 15 minu
   <figcaption> </figcaption>
 </figure>
 
-### Changing role in SRE 
+Please note after 24 hours, a session will be auto logged off. Please get in touch if you want longer uninterrupted sessions.
+
+## Changing role in SRE 
 
 You can readily change your role (if you have been given multiple roles by the SRE team at the discretion of data custodian) by selecting an option from the dropdown menu at the rightmost corner of the main menu.  
 
