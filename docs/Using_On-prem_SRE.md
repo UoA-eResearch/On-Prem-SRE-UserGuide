@@ -169,13 +169,15 @@ You will see the following landing page. Choose “Virtual Desktops” if you ne
 </figure>
 
 In the Research VM, the following list of folders are available to a data custodian: 
-
-Project-rw 
-Project-ro 
-Project-personal (of all users in the project)
-Custodian
-Egress approver 
+Project-rw,
+Project-ro,
+Project-personal (of all users in the project),
+Custodian,
+Egress approver and
 Ingress approver 
+
+The Data Custodian have read-write access to all of the above folders.
+
 
 <figure markdown>
   ![custodian_vm_foledrs](img/custodian_vm_foledrs.png)
