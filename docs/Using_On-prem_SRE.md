@@ -153,53 +153,36 @@ You can readily change your role (if you have been given multiple roles by the S
 
 You can choose one of the four options according to your requirement in the project. Please contact your project owner/data custodian if you need to access SRE with a different role (only the project owner/data custodian can request SRE team to assign various roles to different users in SRE). 
 
-## As a Data Custodian 
+# As a Data Custodian 
 
-### Log into SRE  
+## Log into SRE  
 
-Open (incognito?) browser
- 
-[Enter SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
+Open browser and use the [SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
 
-In the log in page, enter UPI and password.
+In the log in page, enter UPI, password and Authy token. 
 
-Enter MFA. 
-
-You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Following instructions as above (point to previous sections). 
+You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Follow the instructions as above for the Researcher. 
 
 <figure markdown>
   ![custodian](img/custodian.png)
   <figcaption> </figcaption>
 </figure>
 
-### Storage structure for Data Custodian 
+In the Research VM, the following list of folders are available to a data custodian: 
 
-The following are the list of folders a data custodian has access to: 
-
-Project-rw - Shared project folder with read and write access.  
-The content in this folder can be edited by the users who have access to it. 
-
-Project-ro – Shared project folder with read only access.  
-The data in this folder cannot be manipulated by anyone except data custodian. 
-
-Project-personal – Personal folders of each user in the project will be listed in this folder.  
-The data custodian can access any of these users’ personal folder to view/update/delete data in an SRE. 
-
-Custodian – Only data custodian has access to this folder.  
-When a data custodian ingress data directly, the uploaded files are moved into this folder and the data custodian can then move these files into project-rw, project personal (username) or egress-approver folder. 
-
-Egress approver - Folder where all the egress request files land in. 
-Both data custodian and egress approver have access to this folder. 
-
-Ingress approver – Folder where all the ingress request files land in. 
-Both data custodian and ingress approver have access to this folder. 
+Project-rw 
+Project-ro 
+Project-personal (of all users in the project)
+Custodian
+Egress approver 
+Ingress approver 
 
 <figure markdown>
   ![custodian_vm_foledrs](img/custodian_vm_foledrs.png)
   <figcaption> </figcaption>
 </figure>
 
-### Ingress data directly into SRE 
+## Ingress data directly into SRE 
 
 A data custodian can import (ingress) data directly into SRE without requiring approval from the ingress approver.  
 
@@ -214,24 +197,23 @@ Select “Request ingress” to move the file from the airlock to “Custodian�
 
 You will also receive two notifications in your email - your file has been uploaded and then that it has been processed. 
 
-### Deletion of datasets 
+## Deletion of datasets 
 
 As a data custodian, you have read and write access to every folder in your project in an SRE. You may delete data from user’s personal, custodian, ingress-approver, egress-approver, project-ro and project-rw folders. 
 
-
-### Request for change of user’s role/permission level 
+## Request for change of user’s role/permission level 
 
 As a data custodian, you can request for a specific user’s role to be changed in your project or give them a different permission level (read-write or read-only) in SRE. For this, please send an email to the SRE team. 
 
-### Request to remove a user from a project 
+## Request to remove a user from a project 
 
 As a data custodian, you can request for a specific user to be added or deleted from your project in SRE. Please send an email to the SRE team with the users' details – full name, UPI, email and role in SRE (researcher/data custodian/ingress-approver/egress-approver). 
 
-## As a data ingress approver 
+# As a Data Ingress Approver 
 
 Login as in section () or change to “Ingress approver” role (section) 
 
-### View ingress requests 
+## View ingress requests 
 
 Upon getting the notification to review an ingress files request, the user must either log in to SRE environment as an Ingress Approver/Data custodian or needs to select and change the role in SRE.  
 
@@ -258,12 +240,12 @@ In the virtual machine, open the File explorer and select “ingress-approver”
 
 From the list of folders, select the user who requested the ingress, and open the requested file to inspect the contents.  
 
-### Approve or decline a request 
+## Approve or decline a request 
 
 After inspection, go back to the previous main menu (Data ingress requests) and approve or reject the ingress request, as seen appropriate. The data will be automatically deleted from the ingress approver folder (airlock) following approval/rejection. If the request is approved, you will find the file in your personal storage (folder) in the “ingress” folder. 
 
-## As a data egress approver 
+# As a Data Egress Approver 
 
-### View egress requests 
+## View egress requests 
 
 TBD 
