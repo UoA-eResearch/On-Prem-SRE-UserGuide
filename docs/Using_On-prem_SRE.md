@@ -12,14 +12,14 @@ Enter MFA (authy token).
 You will be directed to the On-prem SRE landing page. 
 
 <figure markdown>
-  ![Screenshot1](img/Screenshot1.png)
+  ![landing](img/landing.png)
   <figcaption> </figcaption>
 </figure>
 
 In the landing page, select your project from the drop-down menu. All the projects you have access to will be displayed in the drop-down. Select the one you need to work with. 
 
 <figure markdown>
-  ![Screenshot2](img/Screenshot2.png)
+  ![choosing_project](img/choosing_project.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ In the landing page, select your project from the drop-down menu. All the projec
 From the project’s main menu, choose Virtual desktop if you need to access and work with the data in your personal folder or shared project folders. 
 
 <figure markdown>
-  ![screenshot4](img/Screenshot4.png)
+  ![VMs](img/VMs.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ Choose from either the Windows Research VM or Linux Research VM. This will log y
 Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. Click on the folder which have the data you need to work with. 
 
 <figure markdown>
-  ![Screenshot6](img/Screenshot6.png)
+  ![folders](img/folders.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
 Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
  
 <figure markdown>
-  ![Screenshot7](img/Screenshot7.png)
+  ![folders_arrows](img/folders_arrows.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ After finishing the analysis, “Save” your work in the appropriate folder (se
 If your software is not available in the desktop, click on the Search icon in the task bar, type in and select the software you need. 
 
 <figure markdown>
-  ![Screenshot9](img/Screenshot9.png)
+  ![windows_icon](img/windows_icon.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ If your software is not available in the desktop, click on the Search icon in th
 Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instruction under Data Egress (link).
 
 <figure markdown>
-  ![Screenshot12](img/Screenshot12.png)
+  ![save](img/save.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -77,7 +77,7 @@ The researchers can access the data and can analyse it to generate outputs but c
 As a researcher to upload files from your computer or a location outside of Secure Research Environment, you need to use “Data Ingress” Option from the project’s main menu. 
  
 <figure markdown>
-  ![Screenshot13](img/Screenshot13.png)
+  ![data_ingress1](img/data_ingress1.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -87,38 +87,38 @@ This feature allows your files to be copied into a staging area and a request ca
 You can also zip up a file and upload it, but then the size of the zipped folder should be less than 1 GB. 
 
 <figure markdown>
-  ![Screenshot14](img/Screenshot14.png)
+  ![data_ingress2](img/data_ingress2.png)
   <figcaption> </figcaption>
 </figure>
 
 (ii) Click on the “Request ingress”. This moves the files into the airlock and a notification is sent to you and the ingress approver to evaluate your request. 
 
 <figure markdown>
-  ![Screenshot15](img/Screenshot15.png)
+  ![data_ingress3](img/data_ingress3.png)
   <figcaption> </figcaption>
 </figure>
 
 <figure markdown>
-  ![Screenshot16](img/Screenshot16.png)
+  ![data_ingress4](img/data_ingress4.png)
   <figcaption> </figcaption>
 </figure>
 
 (In the ingress request history, you will see the request state changed from “creating” to “pending_approval”). 
 
 <figure markdown>
-  ![Screenshot17](img/Screenshot17.png)
+  ![data_ingress5](img/data_ingress5.png)
   <figcaption> </figcaption>
 </figure>
 
 Following the ingress approver/data custodian’s evaluation of the data, if the request is approved, state of the request changes to “approved” and you will receive a notification of the same. The files will be moved from the airlock into “ingress” inside your personal folder.  
 
 <figure markdown>
-  ![Screenshot25](img/Screenshot25.png)
+  ![ingress_folder1](img/ingress_folder1.png)
   <figcaption> </figcaption>
 </figure>
 
 <figure markdown>
-  ![Screenshot26](img/Screenshot26.png)
+  ![ingress_folder2](img/ingress_folder2.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -134,7 +134,7 @@ TBD
 The VM connection will be closed once the idle timeout has been reached. 15 minutes of inactivity will lead to connection to the VM being lost and you may need to log in again with your UPI, password and MFA to continue. 
 
 <figure markdown>
-  ![Screenshot27](img/Screenshot27.png)
+  ![timeout](img/timeout.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -143,7 +143,7 @@ The VM connection will be closed once the idle timeout has been reached. 15 minu
 You can readily change your role (if you have been given multiple roles by the SRE team at the discretion of data custodian) by selecting an option from the dropdown menu at the rightmost corner of the main menu.  
 
 <figure markdown>
-  ![Screenshot18](img/Screenshot18.png)
+  ![change_role](img/change_role.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -164,7 +164,7 @@ Enter MFA.
 You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Following instructions as above (point to previous sections). 
 
 <figure markdown>
-  ![Screenshot21](img/Screenshot21.png)
+  ![custodian](img/custodian.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -191,7 +191,7 @@ Ingress approver – Folder where all the ingress request files land in.
 Both data custodian and ingress approver have access to this folder. 
 
 <figure markdown>
-  ![Screenshot22](img/Screenshot22.png)
+  ![custodian_vm_foledrs](img/custodian_vm_foledrs.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -202,7 +202,7 @@ A data custodian can import (ingress) data directly into SRE without requiring a
 For this, in the main menu select “Data Ingress” and “choose the file” to be uploaded and click on “Upload”. This copies your file from your computer/storage device to the airlock.  
 
 <figure markdown>
-  ![Screenshot23](img/Screenshot23.png)
+  ![custodian_ingress](img/custodian_ingress.png)
   <figcaption> </figcaption>
 </figure>
 
@@ -234,21 +234,21 @@ Upon getting the notification to review an ingress files request, the user must 
 Select Data Ingress Request from the screen.  
 
 <figure markdown>
-  ![Screenshot19](img/Screenshot19.png)
+  ![ingress_approver1](img/ingress_approver1.png)
   <figcaption> </figcaption>
 </figure>
 
 You can see the requests by different users which are waiting to be approved.  You can use the virtual machine available to view and evaluate the data been requested to be brought in. 
 
 <figure markdown>
-  ![Screenshot20](img/Screenshot20.png)
+  ![ingress_approver2](img/ingress_approver2.png)
   <figcaption> </figcaption>
 </figure>
 
 In the virtual machine, open the File explorer and select “ingress-approver” folder under network locations. 
 
 <figure markdown>
-  ![Screenshot24](img/Screenshot24.png)
+  ![ingress_approver_VM_folder](img/ingress_approver_VM_folder.png)
   <figcaption> </figcaption>
 </figure>
 
