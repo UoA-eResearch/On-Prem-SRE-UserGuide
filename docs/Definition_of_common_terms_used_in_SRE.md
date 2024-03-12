@@ -1,4 +1,4 @@
-#Definition of common terms used in SRE 
+# Definition of common terms used in SRE 
 
 UPI - Unique Personal Identifier. Your username/login (e.g., jsmi123) 
 
