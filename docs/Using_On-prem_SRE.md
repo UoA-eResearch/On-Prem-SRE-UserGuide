@@ -11,19 +11,21 @@ In the log in page, enter your UPI and password.
 
 Enter MFA (authy token).
 
-You will be directed to the On-prem SRE landing page. 
+If you have multiple projects in SRE, you will be directed to the On-prem SRE landing page. 
 
 <figure markdown>
   ![landing](img/landing.png)
   <figcaption> </figcaption>
 </figure>
 
-In the landing page, select your project from the drop-down menu. All the projects you have access to will be displayed in the drop-down. Select the one you need to work with. 
+In the landing page, select your project from the drop-down menu. 
 
 <figure markdown>
   ![choosing_project](img/choosing_project.png)
   <figcaption> </figcaption>
 </figure>
+
+This will lead you to the SRE main menu. (If you have only single project in SRE, upon logging in you will be directed to SRE main menu).
 
 ## Analysing Data 
 
