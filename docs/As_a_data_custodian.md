@@ -4,7 +4,7 @@
 
 Open browser and use the [SRE URL/domain](https://sre.nectar.auckland.ac.nz/)  
 
-In the log in page, enter UPI, password and Authy token. 
+In the log in page, enter UPI, password and Authy token.
 
 You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Follow the instructions as above for the Researcher. 
 
