@@ -2,7 +2,7 @@
 
 UPI - Unique Personal Identifier. Your username/login (e.g., jsmi123) 
 
-Data ingress – Data (files or folders) which are brought into SRE from outside. These are done through requests and the person who vets these requests is called an Ingress Approver. 
+Data ingress – Data (files or folders) which are brought into SRE from outside. These are done through requests and the person who vets these requests is called an Ingress Approver.
 
 Data egress - Data (files or folders) which are taken out of the SRE. These are also done through requests and the person who vets these requests is called an Egress Approver. 
 
