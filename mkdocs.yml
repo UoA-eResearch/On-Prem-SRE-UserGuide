@@ -7,7 +7,7 @@ nav:
   - Definition of common terms used in SRE: Definition_of_common_terms_used_in_SRE.md
   - Roles in SRE: Roles_in_SRE.md
   - Data Storage: Data_Storage.md
-  - Using On-Prem SRE: Using_On-prem_SRE.md:
+  - Using On-Prem SRE:
     - As a Researcher: As_a_researcher.md
     - As a Data Custodian: As_a_data_custodian.md
     - As a Data Ingress Approver: As_a_data_ingress_approver.md
