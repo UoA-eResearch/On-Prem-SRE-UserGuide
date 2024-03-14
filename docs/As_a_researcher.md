@@ -128,6 +128,20 @@ If the Ingress Approver rejects your request, state of the request changes to â€
 ## Request Egress/Export Data 
 TBD
 
+## Linux Virtual Machine
+
+To access Linux VM, you only need to click on the Linux icon on the main project page. You will see the same folders (project-personal, project-ro and project-rw) on Linux desktop area plus Terminal and Home folder.
+
+<figure markdown>
+  ![Linux](img/Linux.png)
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Terminal](img/Terminal.png)
+  <figcaption> </figcaption>
+</figure>
+
 ## Time outs 
 
 The VM connection will be closed once the idle timeout has been reached. 15 minutes of inactivity will lead to connection to the VM being lost and you may need to log in again with your UPI, password and MFA to continue. 
