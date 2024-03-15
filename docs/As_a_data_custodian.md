@@ -13,6 +13,11 @@ You will see the following landing page. Choose “Virtual Desktops” if you ne
   <figcaption> </figcaption>
 </figure>
 
+<figure markdown>
+  ![custodian_VM](img/custodian_VM.png)
+  <figcaption> </figcaption>
+</figure>
+
 In the Research VM, the following list of folders are available to a data custodian: 
 
 Project-rw 
