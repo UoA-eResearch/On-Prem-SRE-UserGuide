@@ -90,6 +90,11 @@ You can also zip up a file and upload it, but then the size of the zipped folder
   <figcaption> </figcaption>
 </figure>
 
+<figure markdown>
+  ![data_ingress2-5](img/data_ingress2-5.png)
+  <figcaption> </figcaption>
+</figure>
+
 (ii) Click on the “Request ingress”. This moves the files into the airlock and a notification is sent to you and the ingress approver to evaluate your request. 
 
 <figure markdown>
@@ -99,6 +104,11 @@ You can also zip up a file and upload it, but then the size of the zipped folder
 
 <figure markdown>
   ![data_ingress4](img/data_ingress4.png)
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![Email](img/Email.png)
   <figcaption> </figcaption>
 </figure>
 
