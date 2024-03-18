@@ -36,9 +36,9 @@ From the project’s main menu, choose Virtual desktop if you need to access and
   <figcaption> </figcaption>
 </figure>
 
-Choose from either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed for your analysis. 
+Choose from either the Windows Research VM or Linux Research VM. This will log you into the virtual machine which have the relevant software tools installed for your data analysis. 
 
-Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. Click on the folder which have the data you need to work with. 
+Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. Select the folder which have the data you need to work with. 
 
 <figure markdown>
   ![folders](img/folders.png)
