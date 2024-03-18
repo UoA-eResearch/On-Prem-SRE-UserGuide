@@ -25,7 +25,7 @@ In the landing page, select your project from the drop-down menu.
   <figcaption> </figcaption>
 </figure>
 
-This will lead you to the SRE main menu. (If you have only single project in SRE, upon logging in you will be directed to SRE main menu).
+This will lead you to the SRE main menu (see the screenshot below). If you have only single project in SRE, upon logging in you will be directed to SRE main menu.
 
 ## Analysing Data 
 
