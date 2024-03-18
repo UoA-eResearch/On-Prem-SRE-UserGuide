@@ -45,7 +45,7 @@ Click on the File Explorer from the task bar at the bottom of virtual desktop, t
   <figcaption> </figcaption>
 </figure>
 
-## Opening software and running analysis 
+## Opening software and running an analysis 
 
 Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
  
