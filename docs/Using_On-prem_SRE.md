@@ -95,6 +95,8 @@ You can also zip up a file and upload it, but then the size of the zipped folder
   <figcaption> </figcaption>
 </figure>
 
+For ingressing larger files (more than 1 GB) please contact SRE IT team.
+
 (ii) Click on the “Request ingress”. This moves the files into the airlock and a notification is sent to you and the ingress approver to evaluate your request. 
 
 <figure markdown>
