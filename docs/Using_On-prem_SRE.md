@@ -65,7 +65,7 @@ If your software is not available in the desktop, click on the Search icon in th
 
 ## Save data into different folders (personal, shared, egress) 
 
-Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instruction under Data Egress (link).
+Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instructions under Data Egress (link).
 
 <figure markdown>
   ![save](img/save.png)
@@ -75,7 +75,7 @@ Once the analysis is done, choose “project-rw” or your personal folder and p
 Note: In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
 
 ### Access data from shared or read-only folder 
-The researchers can access the data and can analyse it to generate outputs but cannot edit its content. Only the data custodian can edit the data in a project's RO folder. 
+The researchers can access the data in the Read-only folder and analyse it to generate outputs but cannot edit its content. Only the data custodian/s can edit the data in a project's RO folder. 
 
 ## Request Ingress/Import Data 
 As a researcher to upload files from your computer or a location outside of Secure Research Environment, you need to use “Data Ingress” Option from the project’s main menu. 
