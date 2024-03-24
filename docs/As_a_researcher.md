@@ -136,7 +136,7 @@ You can either keep the imported file in your personal folder or copy it into th
 If the Ingress Approver rejects your request, state of the request changes to “rejected” and the file is deleted from the staging area. You can contact the Approver for a clarification and seek advice on the next steps.   
 
 ## Request Egress/Export Data 
-TBD
+This feature is currently unavailable. This section will be updated once the Data Egress is available.
 
 ## Linux Virtual Machine
 
