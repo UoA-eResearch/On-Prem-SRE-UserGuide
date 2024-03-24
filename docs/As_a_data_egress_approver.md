@@ -1,3 +1,3 @@
 ## View egress requests 
 
-TBD 
+This feature is currently unavailable. This section will be updated soon.
