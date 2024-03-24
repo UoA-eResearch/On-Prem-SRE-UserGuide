@@ -1,6 +1,6 @@
 # As a Data Ingress Approver 
 
-Login as in section () or change to “Ingress approver” role (section) 
+Login in to SRE and if needed, change to “Ingress approver” role. 
 
 ## View ingress requests 
 
