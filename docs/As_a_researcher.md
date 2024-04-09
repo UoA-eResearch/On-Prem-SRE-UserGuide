@@ -139,42 +139,42 @@ If the Ingress Approver rejects your request, state of the request changes to �
 As a researcher after a data analysis, you can request to download your data from Secure Research Environment to your local computer or a location outside of Secure Research Environment. Once the analysis is completed and the file is ready to be downloaded, open your personal folder.  
 
 <figure markdown>
-  ![egress_1](img/egress_1.png)
+  ![egress_1](img/egress_1.PNG)
   <figcaption> </figcaption>
 </figure>
 
 Copy the file to be downloaded in the “egress” subfolder of your personal folder.
 
 <figure markdown>
-  ![egress_2](img/egress_2.png)
+  ![egress_2](img/egress_2.PNG)
   <figcaption> </figcaption>
 </figure>
 
 Once the file is inside the egress subfolder, go back to the SRE main menu and select “Data Egress” from the options. 
 
 <figure markdown>
-  ![egress_3](img/egress_3.png)
+  ![egress_3](img/egress_3.PNG)
   <figcaption> </figcaption>
 </figure>
 
 Click on the “Request Egress” button as shown below. This will copy the data from the egress subfolder into an airlock (egress-approver folder) where an egress approver can review the data and make sure there are no identifiable/sensitive information in the requested files.  
 
 <figure markdown>
-  ![egress_4](img/egress_4.png)
+  ![egress_4](img/egress_4.PNG)
   <figcaption> </figcaption>
 </figure>
 
 At this point, the researcher will receive an email notification that the request (time-stamped) has been submitted and will be reviewed by an egress approver. On refreshing the screen, the state of the request in “Your egress request history” will change from “creating” to “pending_approval”. 
 
 <figure markdown>
-  ![egress_5](img/egress_5.png)
+  ![egress_5](img/egress_5.PNG)
   <figcaption> </figcaption>
 </figure>
 
 If the request is approved, the researcher will receive an email notification of the same and the requested file will be available for download on this page. 
 
 <figure markdown>
-  ![egress_6](img/egress_6.png)
+  ![egress_6](img/egress_6.PNG)
   <figcaption> </figcaption>
 </figure>
 
