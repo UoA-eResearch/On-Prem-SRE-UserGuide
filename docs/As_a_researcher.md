@@ -143,6 +143,45 @@ As a researcher after a data analysis, you can request to download your data fro
   <figcaption> </figcaption>
 </figure>
 
+Copy the file to be downloaded in the “egress” subfolder of your personal folder.
+
+<figure markdown>
+  ![egress_2](img/egress_2.png)
+  <figcaption> </figcaption>
+</figure>
+
+Once the file is inside the egress subfolder, go back to the SRE main menu and select “Data Egress” from the options. 
+
+<figure markdown>
+  ![egress_3](img/egress_3.png)
+  <figcaption> </figcaption>
+</figure>
+
+Click on the “Request Egress” button as shown below. This will copy the data from the egress subfolder into an airlock (egress-approver folder) where an egress approver can review the data and make sure there are no identifiable/sensitive information in the requested files.  
+
+<figure markdown>
+  ![egress_4](img/egress_4.png)
+  <figcaption> </figcaption>
+</figure>
+
+At this point, the researcher will receive an email notification that the request (time-stamped) has been submitted and will be reviewed by an egress approver. On refreshing the screen, the state of the request in “Your egress request history” will change from “creating” to “pending_approval”. 
+
+<figure markdown>
+  ![egress_5](img/egress_5.png)
+  <figcaption> </figcaption>
+</figure>
+
+If the request is approved, the researcher will receive an email notification of the same and the requested file will be available for download on this page. 
+
+<figure markdown>
+  ![egress_6](img/egress_6.png)
+  <figcaption> </figcaption>
+</figure>
+
+Click on the zip file link under the “Files available for download” to download the zipped-up folder. Next go to your local computer’s download folder and unzip the downloaded folder (with file/s inside) into appropriate location. 
+
+If the request is rejected, please contact the Egress Approver for further details. 
+
 ## Linux Virtual Machine
 
 To access Linux VM, you only need to click on the Linux icon on the main project page. You will see the same folders (project-personal, project-ro and project-rw) on Linux desktop area plus Terminal and Home folder.
