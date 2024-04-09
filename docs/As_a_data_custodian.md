@@ -52,6 +52,12 @@ Select “Request ingress” to move the file from the airlock to “Custodian�
 
 You will also receive two notifications in your email - your file has been uploaded and then that it has been processed. 
 
+## Egress data out of SRE
+
+As a data custodian to download data from the project’s SRE, login to SRE main menu and open the Data Custodian VM under Virtual Desktops.  
+
+
+
 ## Deletion of datasets 
 
 As a data custodian, you have read and write access to every folder in your project in an SRE. You may delete data from user’s personal, custodian, ingress-approver, egress-approver, project-ro and project-rw folders. 
