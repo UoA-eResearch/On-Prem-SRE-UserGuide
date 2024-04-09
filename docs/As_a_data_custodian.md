@@ -54,8 +54,64 @@ You will also receive two notifications in your email - your file has been uploa
 
 ## Egress data out of SRE
 
-As a data custodian to download data from the project’s SRE, login to SRE main menu and open the Data Custodian VM under Virtual Desktops.  
+As a data custodian to download data from the project’s SRE, login to SRE main menu and open the "Data Custodian VM" under "Virtual Desktops".  
 
+<figure markdown>
+  ![egress_12](img/egress_12.png)
+  <figcaption> </figcaption>
+</figure>
+
+In the virtual machine, open the File explorer and select “custodian” folder under network locations. Select your personal “custodian” folder (if there are multiple data custodians in your project).  
+
+<figure markdown>
+  ![egress_13](img/egress_13.png)
+  <figcaption> </figcaption>
+</figure>
+
+There are two subfolders available, select the “egress” subfolder and copy the data to be egressed in here.  
+
+<figure markdown>
+  ![egress_14](img/egress_14.png)
+  <figcaption> </figcaption>
+</figure>
+
+> [!NOTE]
+> All the files in this “egress” folder will be copied to be downloaded when a request is submitted. Therefore, if you have data from an earlier egress request in this folder, please delete it before submitting a new request.  
+
+Switch back to the SRE main menu, select the Data Egress option, and click on the “Request Egress” button.  
+
+<figure markdown>
+  ![egress_15](img/egress_15.png)
+  <figcaption> </figcaption>
+</figure>
+
+As a data custodian, the egress request will be approved and completed, and the file is made available for downloading bypassing the review process. A notification of the same would be received by the data custodian/s. 
+
+Click on the zip file link under the “Files available for download” to download the zipped-up folder. Next go to your local computer’s download folder and double click on the zipped file.  
+
+<figure markdown>
+  ![egress_16](img/egress_16.png)
+  <figcaption> </figcaption>
+</figure>
+
+Click on the arrow next to “Unzip to” tab, provide appropriate location and select “Unzip”. 
+
+<figure markdown>
+  ![egress_17](img/egress_17.png)
+  <figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+  ![egress_18](img/egress_18.png)
+  <figcaption> </figcaption>
+</figure>
+
+The downloaded file/s can be found in the “egress” folder in this location. All the future unzipped egress files will be in this folder. 
+
+<figure markdown>
+  ![egress_19](img/egress_19.png)
+  <figcaption> </figcaption>
+</figure>
 
 
 ## Deletion of datasets 
