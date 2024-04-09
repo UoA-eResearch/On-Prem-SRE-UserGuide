@@ -22,11 +22,14 @@ The content in this folder can be edited by the users who have access to it.
 Project-ro – Shared project folder with read only access.  
 The data in this folder cannot be manipulated by anyone except data custodian. 
 
-Project-personal – Personal folders of each user in the project will be listed in this folder.  
+Project-personal – Personal folders of each user in the project will be listed in this folder. There are two subfolders under each project personal folder - ingress and egress folders.
+After the researcher's data ingress request is approved by the custodian/approver, the data is placed in the personal-ingress folder.
+A researcher copies the data to be exported out of SRE in the personal-egress folder and requests egress and upon approval, the data is made availble to be downloaded.
 The data custodian can access any of these users’ personal folder to view/update/delete data in an SRE. 
 
-Custodian – Only data custodian has access to this folder.  
-When a data custodian ingress data directly, the uploaded files are moved into this folder and the data custodian can then move these files into project-rw, project personal (username) or egress-approver folder. 
+Custodian – Only data custodian has access to this folder.  It has two sub-folders - ingress and egress
+When a data custodian ingress data directly, the uploaded files are moved into ingress folder and the data custodian can then move these files into project-rw, project personal (username) or egress-approver folder. 
+When a data custodian takes data out, they copy the output file in egress folder and requests egress and the data is available for download.
 
 Egress approver - Folder where all the egress request files land in. 
 Both data custodian and egress approver have access to this folder. 
