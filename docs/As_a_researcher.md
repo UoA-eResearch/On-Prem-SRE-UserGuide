@@ -136,7 +136,12 @@ You can either keep the imported file in your personal folder or copy it into th
 If the Ingress Approver rejects your request, state of the request changes to “rejected” and the file is deleted from the staging area. You can contact the Approver for a clarification and seek advice on the next steps.   
 
 ## Request Egress/Export Data 
-This feature is currently unavailable. This section will be updated once the Data Egress is available.
+As a researcher after a data analysis, you can request to download your data from Secure Research Environment to your local computer or a location outside of Secure Research Environment. Once the analysis is completed and the file is ready to be downloaded, open your personal folder.  
+
+<figure markdown>
+  ![egress_1](img/egress_1.png)
+  <figcaption> </figcaption>
+</figure>
 
 ## Linux Virtual Machine
 
