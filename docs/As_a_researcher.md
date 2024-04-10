@@ -67,6 +67,7 @@ Once the analysis is done, choose “project-rw” or your personal folder and p
   <figcaption> </figcaption>
 </figure>
 
+
 > [!NOTE]
 In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
 
