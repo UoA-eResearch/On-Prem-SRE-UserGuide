@@ -6,17 +6,23 @@ Open browser and use the [SRE URL/domain](https://sre.nectar.auckland.ac.nz/)
 
 In the log in page, enter UPI, password and Authy token.
 
-You will see the following landing page. Choose “Virtual Desktops” if you need to analyse your data. Follow the instructions under "Analysing Data" for the Researcher as above. 
+## Analysing Data 
+
+From the project’s main menu, choose Virtual desktop if you need to access and work with the data in your personal folder or shared project folders. 
 
 <figure markdown>
   ![custodian](img/custodian.png)
   <figcaption> </figcaption>
 </figure>
 
+Choose the Data Custodian VM; this will log you into the virtual machine which have the relevant software tools installed for your analysis.
+
 <figure markdown>
   ![custodian_VM](img/custodian_VM.png)
   <figcaption> </figcaption>
 </figure>
+
+Click on the File Explorer from the task bar at the bottom of virtual desktop, to choose the folder you want. Click on the folder which have the data you need to work with. 
 
 In the Research VM, the following list of folders are available to a data custodian: 
 
@@ -36,6 +42,20 @@ Ingress approver
   ![custodian_vm_foledrs](img/custodian_vm_foledrs.png)
   <figcaption> </figcaption>
 </figure>
+
+## Opening software and running analysis 
+
+Select your software from the desktop and open the datasets you need to work with from your personal or project’s shared folder. The files and folders can be accessed through clicking on “This PC” and choosing the appropriate folder under “Network locations”.
+ 
+After finishing the analysis, “Save” your work in the appropriate folder. 
+
+If your software is not available in the desktop, click on the Search icon in the task bar, type in and select the software you need. 
+
+<figure markdown>
+  ![windows_icon](img/windows_icon.png)
+  <figcaption> </figcaption>
+</figure>
+
 
 ## Ingress data directly into SRE 
 
