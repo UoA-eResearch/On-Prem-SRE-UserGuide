@@ -8,5 +8,5 @@ Secure research environment (SRE) provides a safe, remote computing environment 
 
 As part of the pilot, two systems are being tested -
 
-1.  AWS-TRE (or TRE) which is public cloud based system
-2.  On-premise SRE (or SRE) which is private cloud on local Nectar environment
+1. **AWS-TRE (or TRE)** which is public cloud based system
+2.  **On-premise SRE (or SRE)** which is private cloud on local Nectar environment
