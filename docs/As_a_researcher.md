@@ -67,7 +67,8 @@ Once the analysis is done, choose “project-rw” or your personal folder and p
   <figcaption> </figcaption>
 </figure>
 
-Note: In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
+> [!NOTE]
+In SRE, as a “Researcher” you cannot save a file in “project-ro” folder. Saving your files on VM’s “Desktop” and “Documents” folders is **not recommended** as the VMs are replaceable and the data you have saved there could be lost. 
 
 ### Access data from shared or read-only folder 
 The researchers can access the data and can analyse it to generate outputs but cannot edit its content. Only the data custodian can edit the data in a project's RO folder. 
