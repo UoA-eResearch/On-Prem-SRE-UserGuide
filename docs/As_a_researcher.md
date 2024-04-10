@@ -60,7 +60,7 @@ If your software is not available in the desktop, click on the Search icon in th
 
 ## Save data into different folders (personal, shared, egress) 
 
-Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instructions under  [Request Egress/Export Data](https://sre.nectar.auckland.ac.nz/](https://uoa-eresearch.github.io/On-Prem-SRE-UserGuide/As_a_researcher/#request-egressexport-data).
+Once the analysis is done, choose “project-rw” or your personal folder and press “Save” to store your data. If you want to egress your analysed data out of the SRE, follow instructions under  [Request Egress/Export Data](https://uoa-eresearch.github.io/On-Prem-SRE-UserGuide/As_a_researcher/#request-egressexport-data).
 
 <figure markdown>
   ![save](img/save.png)
