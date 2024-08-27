@@ -66,5 +66,5 @@ extra_css:
     - css/extra.css
   
 repo_name: GitHub
-site_url: https://UoA-eResearch.github.io/On-Prem-SRE-UserGuide/
-repo_url: https://github.com/UoA-eResearch/On-Prem-SRE-UserGuide/
+site_url: https://uoa-eresearch.github.io/SRE-UserGuide/
+repo_url: https://github.com/UoA-eResearch/SRE-UserGuide/
